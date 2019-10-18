@@ -1,22 +1,143 @@
-.App {
-  text-align: center;
+
+
+.userSignForm{
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  height: 100vh;
+  max-width: 450px;
+ 
+  
 }
 
-.App-logo {
-  height: 40vmin;
+.userSigninForm{
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  height: 100vh;
+  max-width: 450px;
+  margin-top: 21%;
+}
+.userAuthorize {
+  margin-top: 8px;
+  margin-right: 4px;;
+}
+.createUserForm{
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  height: 100vh;
+  max-width: 500px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.userList{
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  height: 100vh;
+}
+
+.viewButton{
+  margin-left: 7px;
+}
+
+.loginPage{
+  border: 1px solid;
+  box-shadow: 5px 10px #888888;
+  margin: auto;
+  padding: 15px;
+}
+
+.loginrow{
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  max-width: 330px;
+  height: 100vh;
+}
+.mainForm{
+  box-sizing: border-box;
+  border: black;
+  border:'2px solid black',
+}
+.personSignForm{
+  width: 100%;
+  max-width: 700px;
+  padding: 15px;
+  margin: auto;
+  height: 100vh;
+}
+
+.FormTitle {
+  color: rgb(78, 114, 158);
+  font-weight: 300;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+}
+
+.FormTitle__Link {
+  color: #707C8B;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link--Active {
   color: white;
+  border-bottom: 1px solid #199087;
 }
 
-.App-link {
-  color: #09d3ac;
+.genderClass{
+  margin-right: 16px;
 }
+
+.FormField_select{
+  margin-right: 6px;
+}
+
+.navbar {
+  color: #FFFFFF;
+    background-color: rgb(29, 32, 34);
+}
+
+
+
+/* .mainForm{
+  border: solid 1px #111010;
+  box-sizing: border-box;
+
+} */
+
+.FormTitle {
+  color: #707C8B;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.App {
+  background-color: aliceblue;
+  overflow: auto;
+}
+
+.nav-item{
+  list-style: none;
+}
+
+.container {
+  max-width: 100%;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+select{
+  margin-left: 4px;
+}
+
+
